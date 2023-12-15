@@ -1,12 +1,11 @@
 
 git remote set-url origin https://NagulShareefPhatan123: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@github.com/NagulShareefPhatan123/pythonconnectpostgress.git
 -=============
-pip3 install python-dotenv
-
+depedencies:
+pip3 install Flask
 pip3 install Flask-SQLAlchemy
+pip3 install python-dotenv
 pip3 install psycopg2-binary
-
-
 
 pip3 show Flask-SQLAlchemy
 
