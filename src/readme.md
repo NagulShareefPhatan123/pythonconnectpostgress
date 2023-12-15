@@ -1,6 +1,14 @@
 
 git remote set-url origin https://NagulShareefPhatan123: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@github.com/NagulShareefPhatan123/pythonconnectpostgress.git
 -=============
+BELOW COMMNDS FOR DB TABLES UPDATE(AFTER CREATING TABLE IF YOU WANT TO ADD NEW COLUMN THEN BELOW 3 COMMANDS NEED TO INSTALL)
+-=============
+
+flask db init
+flask db migrate
+flask db upgrade
+
+-=============
 depedencies:
 pip3 install Flask
 pip3 install Flask-SQLAlchemy
